@@ -1,0 +1,91 @@
+/* styling for grid layout */
+.container {
+  display: grid;
+  width: 30%;
+  height: 20px;
+  grid-template-columns: 40px 370px 40px;
+}
+.item1 {
+  padding: 10px;
+  height: 25px;
+  border: white;
+  box-shadow: 1px 1px 2px 3px #faeeee;
+}
+.item2 {
+  margin-top: 30px;
+  height: 305px;
+
+  box-shadow: 1px 1px 2px 3px #faeeee;
+}
+.item3 {
+  margin-top: 30px;
+  padding: 10px;
+  height: 25px;
+  border: white;
+  box-shadow: 1px 1px 2px 3px #faeeee;
+}
+.container1 {
+  display: grid;
+  width: 30%;
+  height: 20px;
+  grid-template-columns: 40px 370px 40px;
+}
+
+/* styling for PureGrid */
+.GridContainer {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  display: grid;
+  width: 100%;
+  height: 490px;
+  grid-template-columns: 15px 310px 15px;
+  grid-template-rows: 50px 50px 140px 120px 50px;
+  grid-gap: 10px;
+  grid-template-areas:
+    "number text drop"
+    "number1 text1 drop1"
+    ". para ."
+    ". list ."
+    "number2 text2 drop2";
+}
+.number {
+  grid-area: number;
+}
+.text {
+  grid-area: text;
+}
+.drop {
+  grid-area: drop;
+}
+.number1 {
+  grid-area: number1;
+}
+.text1 {
+  grid-area: text1;
+}
+.drop1 {
+  grid-area: drop1;
+}
+.para {
+  grid-area: para;
+}
+.list {
+  grid-area: list;
+}
+.number2 {
+  grid-area: number2;
+}
+.text2 {
+  grid-area: text2;
+}
+.drop2 {
+  grid-area: drop2;
+}
+
+@media only screen and (max-width: 600px) {
+  .GridContainer {
+    width: 360px;
+  }
+}
