@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import GridLayout from "./GridLayout";
 import PureGridLayout from "./PureGridLayout";
-import FlexLayout from "./FlexLayout";
+import FlexResponsive from "./FlexResponsive";
 import FlexLayoutWithoutShades from "./FlexLayoutWithoutShades";
 
 import Flex2 from "./Flex2";
@@ -12,7 +12,7 @@ function App() {
     <div>
       {/* <GridLayout /> */}
       {/* <PureGridLayout /> */}
-      <FlexLayout />
+      <FlexResponsive />
       {/* <FlexLayoutWithoutShades /> */}
       {/* <Flex2 /> */}
     </div>
