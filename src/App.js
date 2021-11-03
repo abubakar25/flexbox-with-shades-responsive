@@ -4,6 +4,8 @@ import GridLayout from "./GridLayout";
 import PureGridLayout from "./PureGridLayout";
 import FlexResponsive from "./FlexResponsive";
 import FlexLayoutWithoutShades from "./FlexLayoutWithoutShades";
+import FlexTestSir from "./FlexTestSir";
+import FlexShadesResponsive from "./FlexShadesResponsive";
 
 import Flex2 from "./Flex2";
 
@@ -12,9 +14,11 @@ function App() {
     <div>
       {/* <GridLayout /> */}
       {/* <PureGridLayout /> */}
-      <FlexResponsive />
+      {/* <FlexResponsive /> */}
       {/* <FlexLayoutWithoutShades /> */}
       {/* <Flex2 /> */}
+      <FlexShadesResponsive />
+      {/* <FlexTestSir /> */}
     </div>
   );
 }
